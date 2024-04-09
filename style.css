@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    text-align: center;
+    background-color: #1a2a33;
+}
+
+h1{
+    color: #a8bfc9;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.turn{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmin;
+}
+
+.turn .chance{
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #1f3641;
+    box-shadow: rgb(16,33,42) 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a8bfc9;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 4rem;
+}
+.msg-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.msg-container p#msg{
+    font-size: 3rem;
+    color: #a8bfc9;
+    text-align: center;
+    font-weight: 700;
+}
+
+.turn button{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    box-shadow: rgb(16,33,42) 0px 8px 2px;
+}
+.turn button img{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #1f3641;
+    box-shadow: rgb(16,33,42) 0px -8px 0px inset;
+    font-size: 8vmin;
+    color: #31c3bd;
+}
+
+
+
+
